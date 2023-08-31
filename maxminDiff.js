@@ -9,7 +9,6 @@ Return the maximum and minimum difference values by an array: [  max difference,
 
 function maxAndMin(arr1, arr2) {
   let maxDiff = null;
-
   let minDiff = null;
 
   for (let i = 0; i <= arr1.length; i++) {
