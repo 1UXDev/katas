@@ -21,7 +21,7 @@ function parse(data) {
       ? (current = current * current)
       : letter === "o"
       ? result.push(current)
-      : console.log("none", letter);
+      : console.log("none of the above", letter);
   });
   return result;
 }
