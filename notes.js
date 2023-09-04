@@ -24,3 +24,9 @@ console.log(
     [9, 24, 29, 31, 51, 8, 120, 14]
   )
 );
+
+function hexConv(d) {
+  return "0" + Number(d).toString(16);
+}
+
+console.log(hexConv("240"));
